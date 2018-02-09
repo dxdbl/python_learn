@@ -9,7 +9,6 @@
 ####################################################
 import sys
 import os
-import re
 
 def se_file_by_line(filename,line_num):
     counter = 0

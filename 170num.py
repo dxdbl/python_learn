@@ -29,7 +29,7 @@ def check_filename_available(filename):
 #定义处理函数
 def list_num(phone_num, start_str, end_str):
     #获取系统当前时间
-    now_time = time.strftime('%Y-%m-%d_%H-%M-%S',time.localtime(time.time()))
+    now_time = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
     print(now_time)
 
     #打开文件准备接收结果
@@ -72,3 +72,5 @@ for line in open("test.txt","r"):
     print(end_iccid)
     #调用输出函数
     list_num(phone_num,start_iccid,end_iccid)
+
+    

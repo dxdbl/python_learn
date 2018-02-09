@@ -39,7 +39,7 @@ def se_file_by_line(filename,line_num):
 #脚本执行
 #判断传入参数个数
 if len(sys.argv) != 3:
-    print("error!" + "\n" + "格式如下:python se_file_by_line.py filename 1000")
+    print("error!" + "\n" + "格式如下:python split_file.py filename 1000")
     print("其中filename是需要分割的文件名" + "\n" + "1000是每隔多少行分割!")
     exit()
 # 传参数

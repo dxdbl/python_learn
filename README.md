@@ -10,3 +10,4 @@ split_xls.py需要首先安装xlwt模块
 pip install xlwt即可  
 xlwt是excel write的包  
 方便起见可以安装xlrd包，这个就是excel read喽  
+pip install xlrd  
